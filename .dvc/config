@@ -2,3 +2,9 @@
     remote = public-s3
 ['remote "public-s3"']
     url = https://remote.dvc.org/get-started
+['remote "amcminio"']
+    url = s3://amc-datasets/example-get-started
+    access_key_id = minioadmin
+    secret_access_key = minioadmin123!
+    endpointurl = http://127.0.0.1:19100
+    use_ssl = false
